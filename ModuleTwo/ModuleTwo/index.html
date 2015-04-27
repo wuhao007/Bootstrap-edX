@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Tabs -->
+            <div class="col-md-4">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#Home" role="tab" data-toggle="tab">Home</a></li>
+                    <li><a href="#Profile" role="tab" data-toggle="tab">Profile</a></li>
+                    <li><a href="#Messages" role="tab" data-toggle="tab">Messages</a></li>
+                </ul>
+                <div class="panel-group" id="collapse">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#collapse" href="#collapse-one">
+                                    Accordion heading 1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-one" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#collapse" href="#collapse-two">
+                                    Accordion heading 2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-two" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Morbi eget libero quis metus consectetur semper.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#collapse" href="#collapse-three">
+                                    Accordion heading 3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse-three" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Suspendisse ullamcorper massa eget eleifend iaculis.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel -->
+                <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -  where are we in the cycle? -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#my-carousel" data-slide-to="1"></li>
+                        <li data-target="#my-carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- List of images -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <!-- Image to display -->
+                            <img alt="First slide" src="http://placehold.it/1200x675&text=First+slide">
+                            <!-- Caption for the image -->
+                            <div class="carousel-caption">
+                                <h3>Caption heading 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Second slide" src="http://placehold.it/1200x675&text=Second+slide">
+                            <div class="carousel-caption">
+                                <h3>Caption heading 2</h3>
+                                <p>Morbi eget libero quis metus consectetur semper.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="Third slide" src="http://placehold.it/1200x675&text=Third+slide">
+                            <div class="carousel-caption">
+                                <h3>Caption heading 3</h3>
+                                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation buttons -->
+                    <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#my-carousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <div class="active tab-pane fade in" id="Home">
+                    <h2>Home</h2>
+                    <div>Some sample content</div>
+                </div>
+                <div class="tab-pane" id="Profile">
+                    <h2>Profile</h2>
+                    <div>Some sample content</div>
+                </div>
+                <div class="tab-pane" id="Messages">
+                    <h2>Messages</h2>
+                    <div>Some sample content</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
